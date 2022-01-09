@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.pokemonCard{
+  width: 200px;
+  margin: 20px;
+}
+
+.cardContainer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.rock {
+  background-color: rgb(148, 81, 81) !important;
+}
+.ghost {
+  background-color: rgb(247, 247, 247) !important;
+}
+.electric {
+  background-color: rgb(255, 255, 161) !important;
+}
+.bug {
+  background-color: #F6D6A7 !important;
+}
+.poison {
+  background-color: #e0a7f6 !important;
+}
+.normal {
+  background-color: #F4F4F4 !important;
+}
+.fairy {
+  background-color: rgba(255, 192, 203, 0.863) !important;
+}
+.fire {
+  background-color: #FBE3DF !important;
+}
+.grass {
+  background-color:#E2F9E1 !important;
+}
+.water {
+  background-color:#E0F1FD !important;
+}
